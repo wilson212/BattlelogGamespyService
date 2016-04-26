@@ -1,0 +1,7 @@
+BattlelogLoginServer/bin/*
+BattlelogLoginServer/obj/*
+BattlelogMasterServer/bin/*
+BattlelogMasterServer/obj/*
+Battlelog/bin/*
+Battlelog/obj/*
+*.suo
