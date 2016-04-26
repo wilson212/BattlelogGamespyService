@@ -41,7 +41,7 @@ namespace Server
             string version = String.Concat(Version.Major, ".", Version.Minor, ".", Version.Build);
 
             // Setup the console
-            Console.Title = "Battlelog Gamespy Login Emulator v{version}";
+            Console.Title = $"Battlelog Gamespy Login Emulator v{version}";
             Console.WriteLine(@"__________         __    __  .__         .__   ");
             Console.WriteLine(@"\______   \_____ _/  |__/  |_|  |   ____ |  |   ____   ____");
             Console.WriteLine(@" |    |  _/\__  \\   __\   __\  | _/ __ \|  |  /  _ \ / ___\");

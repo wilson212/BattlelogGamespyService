@@ -42,7 +42,7 @@ namespace BattlelogMaster
             string version = String.Concat(Version.Major, ".", Version.Minor, ".", Version.Build);
 
             // Setup the console
-            Console.Title = "Battlelog Master Gamespy Emulator v{version}";
+            Console.Title = $"Battlelog Master Gamespy Emulator v{version}";
             Console.WriteLine(@"__________         __    __  .__           _________             ");
             Console.WriteLine(@"\______   \_____ _/  |__/  |_|  |   ____  /   _____/_____ ___.__.");
             Console.WriteLine(@" |    |  _/\__  \\   __\   __\  | _/ __ \ \_____  \\____ <   |  |");
